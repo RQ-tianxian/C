@@ -1,44 +1,43 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-//¿âº¯Êı-CÓïÑÔ±¾ÉíÌá¹©¸øÎÒÃÇÊ¹ÓÃµÄº¯Êı
-//°üº¬Ò»¸ö½Ğstdio.hµÄÎÄ¼ş
-//std-±ê×¼ standard
+//åº“å‡½æ•°-Cè¯­è¨€æœ¬èº«æä¾›ç»™æˆ‘ä»¬ä½¿ç”¨çš„å‡½æ•°
+//åŒ…å«ä¸€ä¸ªå«stdio.hçš„æ–‡ä»¶
+//std-æ ‡å‡† standard
 //i-input
 //o-output
-int main()//Ö÷º¯Êı-³ÌĞòµÄÈë¿Ú-mainº¯ÊıÓĞÇÒ½öÓĞÒ»¸ö
+int main()//ä¸»å‡½æ•°-ç¨‹åºçš„å…¥å£-mainå‡½æ•°æœ‰ä¸”ä»…æœ‰ä¸€ä¸ª
 {
-	//intÊÇÕûĞÎµÄÒâË¼
-	//mainÇ°ÃæµÄint±íÊ¾mainº¯Êıµ÷ÓÃ·µ»ØÒ»¸öÕûĞÎ
-	printf("Hello World!\n");//º¯Êı-print function - printf - ´òÓ¡º¯Êı
+	//intæ˜¯æ•´å½¢çš„æ„æ€
+	//mainå‰é¢çš„intè¡¨ç¤ºmainå‡½æ•°è°ƒç”¨è¿”å›ä¸€ä¸ªæ•´å½¢
+	printf("Hello World!\n");//å‡½æ•°-print function - printf - æ‰“å°å‡½æ•°
 	/*
-	char -- ×Ö·ûÀàĞÍ
-	%d -- ´òÓ¡ÕûĞÎ
-	%c -- ´òÓ¡×Ö·û
-	%f -- ´òÓ¡¸¡µãÊı-´òĞ¡Êı
-	%p -- ÒÔµØÖ·µÄĞÎÊ½´òÓ¡
-	%o -- ´òÓ¡16½øÖÆÊı×Ö
+	char -- å­—ç¬¦ç±»å‹
+	%d -- æ‰“å°æ•´å½¢
+	%c -- æ‰“å°å­—ç¬¦
+	%f -- æ‰“å°æµ®ç‚¹æ•°-æ‰“å°æ•°
+	%p -- ä»¥åœ°å€çš„å½¢å¼æ‰“å°
+	%o -- æ‰“å°16è¿›åˆ¶æ•°å­—
 	*/
 	//e.g
 	printf("haha\n");
-	char ch = 'A';//ÄÚ´æ
-	printf("%c\n", ch);//%c -- ´òÓ¡×Ö·û¸ñÊ½µÄÊı¾İ
-	int age = 20;//int -- ¶ÌÕûĞÍ
-	printf("%d\n", age);//%d -- ´òÓ¡ÕûĞÎÊ®½øÖÆÊı¾İ
-	long num = 100;//long -- ³¤ÕûĞÍ
+	char ch = 'A';//å†…å­˜
+	printf("%c\n", ch);//%c -- æ‰“å°å­—ç¬¦æ ¼å¼çš„æ•°æ®
+	int age = 20;//int -- çŸ­æ•´å‹
+	printf("%d\n", age);//%d -- æ‰“å°æ•´å½¢åè¿›åˆ¶æ•°æ®
+	long num = 100;//long -- é•¿æ•´å‹
 	printf("%d\n", num);
-	float f = 5.0;//float -- ¸¡µãĞÍ
-	printf("%f\n", f);//%f -- ´òÓ¡¸¡µã¸ñÊ½µÄÊı¾İ
-	double d = 3.14;//double -- Ë«¾«¶È¸¡µãĞÍ
-	printf("%lf\n", d);//%lf -- ´òÓ¡Ë«¾«¶È¸¡µãĞÍ¸ñÊ½µÄÊı¾İ
+	float f = 5.0;//float -- æµ®ç‚¹å‹
+	printf("%f\n", f);//%f -- æ‰“å°æµ®ç‚¹æ ¼å¼çš„æ•°æ®
+	double d = 3.14;//double -- åŒç²¾åº¦æµ®ç‚¹å‹
+	printf("%lf\n", d);//%lf -- æ‰“å°åŒç²¾åº¦æµ®ç‚¹å‹æ ¼å¼çš„æ•°æ®
 	printf("=====================\n");
-	printf("%d\n", sizeof(char));//1×Ö½Ú
+	printf("%d\n", sizeof(char));//1å­—èŠ‚
 	printf("%d\n", sizeof(short));//2
 	printf("%d\n", sizeof(int));//4
-	printf("%d\n", sizeof(long));//4»ò8
+	printf("%d\n", sizeof(long));//4æˆ–8
 	printf("%d\n", sizeof(long long));//8
 	printf("%d\n", sizeof(float));//4
 	printf("%d\n", sizeof(double));//8
 	printf("===================\n");
-	int
-	return 0;//·µ»Ø
+	return 0;//è¿”å›
 }
